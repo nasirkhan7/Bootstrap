@@ -1,0 +1,166 @@
+:root {
+    --primary: #37517E;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background: var(--primary);
+} */
+
+
+.front {
+    background: var(--primary);
+    color: var(--bs-white);
+}
+
+.animate-image {
+    animation: move 1.5s linear infinite alternate-reverse;
+
+}
+
+@keyframes move {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-30px);
+    }
+
+}
+
+.black-white {
+    filter: grayscale(100%);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.black-white:hover {
+    scale: 1.1;
+    filter: grayscale(0%);
+
+}
+
+.about {
+    color: var(--primary);
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+
+.underline {
+    width: 80px;
+    height: 3px;
+    background-color: var(--bs-gray-300);
+    margin: auto;
+    position: relative;
+}
+
+.blue {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 5px;
+    background-color: var(--bs-info);
+    position: absolute;
+}
+
+.acc {
+    color: var(--primary);
+}
+
+.anim {
+    background-image: url('https://media.giphy.com/media/6oeRBKg7mwEZnSnYkn/giphy.gif') !important;
+    -webkit-background-clip: text !important;
+   -webkit-text-fill-color: transparent;
+}
+.service
+{
+    color: var(--primary);
+    font-family: sans-serif;
+}
+.underscore{
+    width: 100px;
+    height: 3px;
+    background-color: var(--bs-gray-300);
+    margin: auto;
+    position: relative;
+}
+.dash{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    height: 5px;
+    background-color: var(--bs-info);
+    position: absolute;
+}
+
+.icon-box{
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 30px ;
+    /* transition: all linear 0.4s; */
+}
+
+.icon h4{
+    color:#37517E;
+}
+.icon i{
+    color: #37517E;
+    font-size: larger;
+}
+
+.back-image
+{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url('https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg') fixed center center;
+    background-size: cover;
+}
+
+
+.card-title
+{
+    color: #37517E;
+}
+.card-text
+{
+    color: #37517E;
+}
+
+.pricing ul .na{
+    color: #ccc;
+}
+
+.pricing h2{
+    color: #37517E;
+    font-weight: bolder;
+}
+/* .b-card{
+    border-top: 2px solid;
+    border-top-color: var(--bs-info);
+} */
+
+
+
+.question{
+    color: #37517E;
+    font-weight: bold;
+    
+}
+.contact{
+    color:#37517E;
+}
+
+.ARSHA{
+    color: #37517E;
+}
+.footer{
+    background: #37517E;
+}
